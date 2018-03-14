@@ -1,0 +1,69 @@
+body {
+    margin: 0 ;
+    background-color: grey;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+
+
+table {
+    margin: auto;
+    background-color:  blue;
+}
+
+td {
+    
+    background-color: green; 
+    width: 50px;
+    height:50px;
+    text-align: center;
+    font-size:1.4em;
+    border: 30px;
+    
+} 
+
+ .color {
+    background-color:red; 
+}
+
+ .hide {
+     display: none; 
+} 
+
+.stats {
+    font-size: 1.5em;
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top:30px;  
+}
+.timer {
+    background-color: cornsilk;
+    margin-right: 100px;
+    
+    height:20px;
+    width:50px; 
+    text-align: center;  
+
+    
+}
+.mines-count{
+    
+    background-color: cornsilk;
+    margin-left: 30px;
+    
+    height:20px;
+    width:50px; 
+    text-align: center;
+
+}
+
+.end-game{
+    margin: auto;
+    font-size: 5em;
+    background-color:white;
+    width: 500px; 
+}

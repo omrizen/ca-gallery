@@ -1,0 +1,78 @@
+body {
+    margin: 0 ;
+    background-color: grey;
+    text-align: center;
+    
+}
+
+.new-game{
+    background-color: rgb(21, 245, 21);
+    color:rgb(148, 148, 219);
+    margin:10px
+}
+
+.timer {
+    background-color: cornsilk;
+    margin:auto;
+    margin-bottom: 10px;
+    height:20px;
+    width:50px;   
+    text-align: left;
+}
+
+table {
+    margin: auto
+}
+td {
+    
+    background-color:rgb(194    , 162, 162) ; 
+    width: 40px;
+    height:40px;
+    text-align: center;
+    font-size:1.4em;
+    border: 30px;
+    
+} 
+ .target{
+   background-color: green;
+}
+
+.stats {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ .wall {
+    background-color: black;
+ }
+.score {
+    margin-left: 40px;
+}
+ .steps{
+    
+    
+    margin-left: 30px;
+    
+    height:20px;
+    width:50px; 
+    text-align: center;
+
+}
+
+
+ .color {
+    background-color:red; 
+}
+
+ .hide {
+     display: none; 
+} 
+
+
+
+.end-game{
+    margin: 10px;
+    font-size: 2em;
+    background-color:white;
+    width: 500px; 
+}

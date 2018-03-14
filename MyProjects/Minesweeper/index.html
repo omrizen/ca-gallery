@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> Mine Sweeper</h1>
+    <div class=buttons></div>
+        <button class="button-4" onclick="newGame(4,2)">Beginner</button>
+        <button class="button-6" onclick="newGame(6,5)">Medium</button>
+        <button class="button-8" onclick="newGame(8,15)">Expert</button>
+         <!--  <button class="button-8" onclick="newGame(10,6)">Expert</button>  -->
+    </div> 
+    <div class = "stats">
+        <span class="timer" > </span>
+        <span class="mines-count"> </span>
+        </div>
+
+    <table class="board" border="1"   >
+        
+    </table>
+    <div class="state hide" > <h1>You Win!</h1>  </div>
+    <div class="end-game" >  </div>
+        
+       
+    <!-- <button class="new-game" onclick="newGame()">New Game</button>
+    <div class="timer">
+        
+    </div> 
+
+    <table border="1" cellpadding="10" class="mat-numbers">
+    </table> -->
+
+
+    <script src="js/main.js" ></script>
+    <script src="js/utils.js" ></script>
+</body>
+
+</html>
